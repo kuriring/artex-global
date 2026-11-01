@@ -1,0 +1,5 @@
+# Use with docker-compose.yml after building or publishing a team image.
+# Requiring the complete image reference prevents silently running upstream code.
+services:
+  artex:
+    image: ${ARTEX_TEAM_IMAGE:?Set ARTEX_TEAM_IMAGE to a built team image tag or digest}

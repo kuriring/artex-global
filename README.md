@@ -2,6 +2,8 @@
 
 # ARTEX — Global Edition
 
+> **Team fork (`kuriring/artex-global`):** see the [team development plan](docs/team-development-ko.md) for the implementation roadmap and fork-specific deployment instructions. Team accounts and project authorization are planned, not implemented. The upstream quick start below runs the upstream image; use `docker-compose.team.yml` with an explicitly built or published team image to run this fork.
+
 **An autonomous penetration-testing system driven by LLM multi-agents** (Go backend + Next.js frontend)
 
 The UI and generated output default to English, and **can be switched to Korean, Chinese, Spanish or Japanese in Settings (System → Settings → Display language).** Changing the language also changes the language of agent-generated reports, summaries and chat replies.
