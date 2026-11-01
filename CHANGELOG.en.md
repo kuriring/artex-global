@@ -8,6 +8,10 @@ The upstream ARTEX project's per-version release history (0.3.x and earlier) and
 
 ## [Unreleased]
 
+### Team fork
+
+- Establish `kuriring/artex-global` as the team fork: route binary updates and future container releases to this repository, add an explicit team-image Compose override, and document the team authorization roadmap. Multi-user authorization is not implemented by this bootstrap.
+
 ### Localization (i18n)
 
 - **Added Spanish documentation.** Translated `README.es.md` from the English README into natural Spanish and added a Spanish link to the language navigation of all five READMEs (English, Korean, Chinese, Spanish, Japanese). Code, commands, payloads, URLs and identifiers are preserved; only descriptive text is translated.
